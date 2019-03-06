@@ -6,7 +6,30 @@
 
     <groupId>com.rs.ge</groupId>
     <artifactId>rs-ge</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <spring-boot-framework.version>2.1.1.RELEASE</spring-boot-framework.version>
+        <slf4j.version>1.7.9</slf4j.version>
+        <spring-version>5.1.4.RELEASE</spring-version>
+    </properties>
+
+    <modules>
+        <module>clients</module>
+        <module>services</module>
+        <module>clients</module>
+        <module>config</module>
+        <module>utilities</module>
+        <module>frameworks</module>
+        <module>utilities</module>
+        <module>config</module>
+        <module>services</module>
+        <module>clients</module>
+    </modules>
+
+
 
 
 </project>
